@@ -1,0 +1,459 @@
+main:
+  parquet:
+    parquet_date: 28/10/2024
+    parquet_path: ../DATAS/parquet
+    parquet_prefix: deces_
+    parquet_source: deces.parquet
+  sgbd:
+    db_name: deces.db
+    db_path: ../DATAS/DB
+    timeoutsqlite: 60
+  spliting:
+    chunksize: 500
+    splitlimite: 1000
+  threads:
+    max_files_in_parallel_many_year: 2
+    max_files_in_parallel_one_year: 6
+    max_threads_annee: 2
+    prepare_dir: null
+traitement:
+  annee_1920:
+    prepare_dir:
+      nbre_enreg: 11
+      nbre_splits: 1
+      parquet_date: 30/11/2024
+      parquet_name: ../DATAS/parquet/deces_1920.parquet
+      splitsize: 1000
+      temps_exec: 58.18529295921326
+  annee_1970:
+    prepare_dir:
+      nbre_enreg: 27363
+      nbre_splits: 28
+      parquet_date: 19/11/2024
+      parquet_name: ../DATAS/parquet/deces_1970.parquet
+      splitsize: 1000
+      temps_exec: 1.907914400100708
+  annee_1971:
+    prepare_dir:
+      nbre_enreg: 161374
+      nbre_splits: 162
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1971.parquet
+      splitsize: 1000
+      temps_exec: 19.97646689414978
+  annee_1972:
+    prepare_dir:
+      nbre_enreg: 336355
+      nbre_splits: 337
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1972.parquet
+      splitsize: 1000
+      temps_exec: 33.776010036468506
+  annee_1973:
+    prepare_dir:
+      nbre_enreg: 366371
+      nbre_splits: 367
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1973.parquet
+      splitsize: 1000
+      temps_exec: 50.295616149902344
+  annee_1974:
+    prepare_dir:
+      nbre_enreg: 380886
+      nbre_splits: 381
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1974.parquet
+      splitsize: 1000
+      temps_exec: 53.10766363143921
+  annee_1975:
+    prepare_dir:
+      nbre_enreg: 399678
+      nbre_splits: 400
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1975.parquet
+      splitsize: 1000
+      temps_exec: 119.48211431503296
+  annee_1976:
+    prepare_dir:
+      nbre_enreg: 409314
+      nbre_splits: 410
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1976.parquet
+      splitsize: 1000
+      temps_exec: 112.96116852760315
+  annee_1977:
+    prepare_dir:
+      nbre_enreg: 405148
+      nbre_splits: 406
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1977.parquet
+      splitsize: 1000
+      temps_exec: 118.84381890296936
+  annee_1978:
+    prepare_dir:
+      nbre_enreg: 421406
+      nbre_splits: 422
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1978.parquet
+      splitsize: 1000
+      temps_exec: 122.95039105415344
+  annee_1979:
+    prepare_dir:
+      nbre_enreg: 425441
+      nbre_splits: 426
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1979.parquet
+      splitsize: 1000
+      temps_exec: 108.99451661109924
+  annee_1980:
+    prepare_dir:
+      nbre_enreg: 438381
+      nbre_splits: 439
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1980.parquet
+      splitsize: 1000
+      temps_exec: 110.88269472122192
+  annee_1981:
+    prepare_dir:
+      nbre_enreg: 455067
+      nbre_splits: 456
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1981.parquet
+      splitsize: 1000
+      temps_exec: 126.56700015068054
+  annee_1982:
+    prepare_dir:
+      nbre_enreg: 453706
+      nbre_splits: 454
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1982.parquet
+      splitsize: 1000
+      temps_exec: 130.51359868049622
+  annee_1983:
+    prepare_dir:
+      nbre_enreg: 474040
+      nbre_splits: 475
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1983.parquet
+      splitsize: 1000
+      temps_exec: 135.0293300151825
+  annee_1984:
+    prepare_dir:
+      nbre_enreg: 464572
+      nbre_splits: 465
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1984.parquet
+      splitsize: 1000
+      temps_exec: 134.788183927536
+  annee_1985:
+    prepare_dir:
+      nbre_enreg: 475125
+      nbre_splits: 476
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1985.parquet
+      splitsize: 1000
+      temps_exec: 130.46590614318848
+  annee_1986:
+    prepare_dir:
+      nbre_enreg: 477575
+      nbre_splits: 478
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1986.parquet
+      splitsize: 1000
+      temps_exec: 122.50496912002563
+  annee_1987:
+    prepare_dir:
+      nbre_enreg: 462626
+      nbre_splits: 463
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1987.parquet
+      splitsize: 1000
+      temps_exec: 96.7528600692749
+  annee_1988:
+    prepare_dir:
+      nbre_enreg: 459236
+      nbre_splits: 460
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1988.parquet
+      splitsize: 1000
+      temps_exec: 99.30782866477966
+  annee_1989:
+    prepare_dir:
+      nbre_enreg: 538744
+      nbre_splits: 539
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1989.parquet
+      splitsize: 1000
+      temps_exec: 95.02010655403137
+  annee_1990:
+    prepare_dir:
+      nbre_enreg: 540002
+      nbre_splits: 541
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1990.parquet
+      splitsize: 1000
+      temps_exec: 137.12742972373962
+  annee_1991:
+    prepare_dir:
+      nbre_enreg: 537409
+      nbre_splits: 538
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1991.parquet
+      splitsize: 1000
+      temps_exec: 138.90598249435425
+  annee_1992:
+    prepare_dir:
+      nbre_enreg: 533807
+      nbre_splits: 534
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1992.parquet
+      splitsize: 1000
+      temps_exec: 160.13702416419983
+  annee_1993:
+    prepare_dir:
+      nbre_enreg: 547392
+      nbre_splits: 548
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1993.parquet
+      splitsize: 1000
+      temps_exec: 152.49209260940552
+  annee_1994:
+    prepare_dir:
+      nbre_enreg: 536775
+      nbre_splits: 537
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1994.parquet
+      splitsize: 1000
+      temps_exec: 148.26876616477966
+  annee_1995:
+    prepare_dir:
+      nbre_enreg: 545775
+      nbre_splits: 546
+      parquet_date: 03/11/2024
+      parquet_name: ../DATAS/parquet/deces_1995.parquet
+      splitsize: 1000
+      temps_exec: 140.54921436309814
+  annee_1996:
+    prepare_dir:
+      nbre_enreg: 559416
+      nbre_splits: 560
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1996.parquet
+      splitsize: 1000
+      temps_exec: 146.55214047431946
+  annee_1997:
+    prepare_dir:
+      nbre_enreg: 552321
+      nbre_splits: 553
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1997.parquet
+      splitsize: 1000
+      temps_exec: 155.93941926956177
+  annee_1998:
+    prepare_dir:
+      nbre_enreg: 571044
+      nbre_splits: 572
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1998.parquet
+      splitsize: 1000
+      temps_exec: 142.2505021095276
+  annee_1999:
+    prepare_dir:
+      nbre_enreg: 603424
+      nbre_splits: 604
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_1999.parquet
+      splitsize: 1000
+      temps_exec: 177.26741933822632
+  annee_2000:
+    prepare_dir:
+      nbre_enreg: 550215
+      nbre_splits: 551
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2000.parquet
+      splitsize: 1000
+      temps_exec: 141.74883913993835
+  annee_2001:
+    prepare_dir:
+      nbre_enreg: 550807
+      nbre_splits: 551
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2001.parquet
+      splitsize: 1000
+      temps_exec: 150.7152760028839
+  annee_2002:
+    prepare_dir:
+      nbre_enreg: 552821
+      nbre_splits: 553
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2002.parquet
+      splitsize: 1000
+      temps_exec: 148.45599579811096
+  annee_2003:
+    prepare_dir:
+      nbre_enreg: 571013
+      nbre_splits: 572
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2003.parquet
+      splitsize: 1000
+      temps_exec: 158.35457634925842
+  annee_2004:
+    prepare_dir:
+      nbre_enreg: 526907
+      nbre_splits: 527
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2004.parquet
+      splitsize: 1000
+      temps_exec: 142.6191713809967
+  annee_2005:
+    prepare_dir:
+      nbre_enreg: 546064
+      nbre_splits: 547
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2005.parquet
+      splitsize: 1000
+      temps_exec: 154.12423276901245
+  annee_2006:
+    prepare_dir:
+      nbre_enreg: 533644
+      nbre_splits: 534
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2006.parquet
+      splitsize: 1000
+      temps_exec: 143.72774744033813
+  annee_2007:
+    prepare_dir:
+      nbre_enreg: 538476
+      nbre_splits: 539
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2007.parquet
+      splitsize: 1000
+      temps_exec: 157.392511844635
+  annee_2008:
+    prepare_dir:
+      nbre_enreg: 550174
+      nbre_splits: 551
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2008.parquet
+      splitsize: 1000
+      temps_exec: 127.34640455245972
+  annee_2009:
+    prepare_dir:
+      nbre_enreg: 556177
+      nbre_splits: 557
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2009.parquet
+      splitsize: 1000
+      temps_exec: 164.4471673965454
+  annee_2010:
+    prepare_dir:
+      nbre_enreg: 557726
+      nbre_splits: 558
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2010.parquet
+      splitsize: 1000
+      temps_exec: 143.31995606422424
+  annee_2011:
+    prepare_dir:
+      nbre_enreg: 549109
+      nbre_splits: 550
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2011.parquet
+      splitsize: 1000
+      temps_exec: 158.06407833099365
+  annee_2012:
+    prepare_dir:
+      nbre_enreg: 578498
+      nbre_splits: 579
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2012.parquet
+      splitsize: 1000
+      temps_exec: 156.3871304988861
+  annee_2013:
+    prepare_dir:
+      nbre_enreg: 577725
+      nbre_splits: 578
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2013.parquet
+      splitsize: 1000
+      temps_exec: 172.61768531799316
+  annee_2014:
+    prepare_dir:
+      nbre_enreg: 567727
+      nbre_splits: 568
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2014.parquet
+      splitsize: 1000
+      temps_exec: 151.4987289905548
+  annee_2015:
+    prepare_dir:
+      nbre_enreg: 602085
+      nbre_splits: 603
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2015.parquet
+      splitsize: 1000
+      temps_exec: 158.4205298423767
+  annee_2016:
+    prepare_dir:
+      nbre_enreg: 602481
+      nbre_splits: 603
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2016.parquet
+      splitsize: 1000
+      temps_exec: 161.20757246017456
+  annee_2017:
+    prepare_dir:
+      nbre_enreg: 615829
+      nbre_splits: 616
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2017.parquet
+      splitsize: 1000
+      temps_exec: 169.80773043632507
+  annee_2018:
+    prepare_dir:
+      nbre_enreg: 619085
+      nbre_splits: 620
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2018.parquet
+      splitsize: 1000
+      temps_exec: 177.37495231628418
+  annee_2019:
+    prepare_dir:
+      nbre_enreg: 622411
+      nbre_splits: 623
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2019.parquet
+      splitsize: 1000
+      temps_exec: 193.77966690063477
+  annee_2020:
+    prepare_dir:
+      nbre_enreg: 678029
+      nbre_splits: 679
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2020.parquet
+      splitsize: 1000
+      temps_exec: 199.60878467559814
+  annee_2021:
+    prepare_dir:
+      nbre_enreg: 671807
+      nbre_splits: 672
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2021.parquet
+      splitsize: 1000
+      temps_exec: 171.86793851852417
+  annee_2022:
+    prepare_dir:
+      nbre_enreg: 684163
+      nbre_splits: 685
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2022.parquet
+      splitsize: 1000
+      temps_exec: 154.7885754108429
+  annee_2023:
+    prepare_dir:
+      nbre_enreg: 647728
+      nbre_splits: 648
+      parquet_date: 02/11/2024
+      parquet_name: ../DATAS/parquet/deces_2023.parquet
+      splitsize: 1000
+      temps_exec: 109.51233124732971
